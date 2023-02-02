@@ -11,16 +11,16 @@ Console.Write("Введите третье число: ");
 int c = Convert.ToInt32(Console.ReadLine());
 if (a > b && a > c) 
 {
-    System.Console.WriteLine("Первое число самое большое");
+    System.Console.WriteLine($"Первое число самое большое:{a}");
     }
 else
 {
     if (b > a && b > c) 
 {
-    System.Console.WriteLine("Второе число самое большое");
+    System.Console.WriteLine($"Второе число самое большое:{b}");
     }
 else
 {
-     System.Console.WriteLine("Третье число самое большое");
+     System.Console.WriteLine($"Третье число самое большое: {c}");
 }
 }
